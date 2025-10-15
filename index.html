@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="assets/bg_2.png">
+
+  <title href="index.html">North Pizza & Kebap</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="sticky-header">
+   <div class="logo-container">
+  <a href="index.html" class="logo-container">
+  <img src="assets/bg_2.png" alt="Logo" class="site-logo">
+  <div class="logo-text">North Pizza & Kebap</div>
+</a>
+
+</div>
+
+    <nav class="nav-bar">
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+      <ul id="nav-links">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="#pizza-menu">Pizzalar</a></li>
+        <li><a href="#kebap-menu">Kebaplar</a></li>
+        <li><a href="#about">Hakkımızda</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+        <li class="socials">
+          <a href="tel:+358403711111"><img src="assets/phone.png" alt="Telephone"></a>
+          <a href="https://www.facebook.com/p/North-Pizza-Kebab-100069291834170/" target="_blank" rel="noopener"><img src="assets/facebook.png" alt="Facebook"></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener"><img src="assets/instagram.png" alt="Instagram"></a>
+        </li>
+      </ul>
+    </nav>
+    
+  </header>
+ <!-- DISCOUNT SECTION -->
+<div class="campaign-bar">
+  <p>
+    🎉 <strong>%25 İndirim!</strong> 
+    Sadece bugün <span class="highlight">Pepperoni Pizza</span> ve <span class="highlight">Adana Kebap</span> için! 
+    <a href="#pizza-menu" class="campaign-link">Hemen İncele</a>
+  </p>
+</div>
+ 
+  <section class="slider" id="slider">
+    <div class="slide active">
+      <img src="assets/about.jpg" alt="Restaurant">
+      <div class="slide-content">
+        <h1>Lezzetli Pizza</h1>
+        <p>Gerçek İtalyan lezzetini deneyimle.</p>
+        <a href="#pizza-menu" class="btn">İncele</a>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="assets/bg_2.jpg" alt="Kebap">
+      <div class="slide-content">
+        <h1>Geleneksel Kebap</h1>
+        <p>Türk mutfağının eşsiz tadı seni bekliyor.</p>
+        <a href="#kebap-menu" class="btn">İncele</a>
+      </div>
+    </div>
+    <button class="prev" id="prevBtn">&#10094;</button>
+    <button class="next" id="nextBtn">&#10095;</button>
+  </section>
+
+
+<!-- PIZZA CARDS SECTION -->
+  <section class="menu-list" id="pizza-menu">
+    <h2>🍕 Pizza Menüsü</h2>
+    <h3>İtalyan Usulü Lezzetli Pizzalar</h3>
+    <div class="menu-item" data-img="assets/bg_1.png">
+      <span class="name">Classic Pizza</span>
+      <span class="desc">Mozzarella, domates sosu ve taze fesleğen</span>
+      <span class="price">19.99£</span>
+    </div>
+   <div class="menu-item" data-img="assets/bg_2.png">
+  <span class="name">Cheese Deluxe Pizza</span>
+  <span class="desc">Ekstra peynir, mozarella ve domates sosu</span>
+  <div class="price-wrapper">
+    <span class="old-price">19.99£</span>
+    <span class="new-price">14.99£</span>
+  </div>
+</div>
+
+    <div class="menu-item">
+      <span class="name">Veggie Pizza</span>
+      <span class="desc">Zeytin, biber, mantar ve mısır</span>
+      <span class="price">18.75£</span>
+    </div>
+  </section>
+  
+<!-- KEBAB CARDS SECTION -->
+  <section class="menu-list" id="kebap-menu">
+    <h2>🥙 Kebap Menüsü</h2>
+    <h3>Türk Usulü Lezzetli Kebaplar</h3>
+    <div class="menu-item" data-img="">
+      <span class="name">Adana Kebap</span>
+      <span class="desc">Acılı dana kıyma, közlenmiş biber ve lavaş</span>
+         <div class="price-wrapper">
+          <span class="old-price">12.99£</span>
+          <span class="new-price">9.99£</span>
+         </div>
+    </div>
+    <div class="menu-item" data-img="">
+      <span class="name">Urfa Kebap</span>
+      <span class="desc">Acısız dana kıyma, köz sebzelerle servis</span>
+      <span class="price">12.50£</span>
+    </div>
+    <div class="menu-item">
+      <span class="name">Tavuk Şiş</span>
+      <span class="desc">Marine edilmiş tavuk eti, pilav ve lavaşla</span>
+      <span class="price">14.90£</span>
+
+    </div>
+  </section>
+    
+   <!-- HOURS CARDS SECTION -->
+<section class="hours-section">
+  <div class="order-card">
+    <h2>Şimdi Sipariş Ver</h2>
+    <div class="order-apps">
+      <a href="https://wolt.com/en/fin/sodankyla/restaurant/north-pizza-kebab?srsltid=AfmBOoq9EhLvQ8stLp6uK5Vd_Xwkn6ClWWgubs_I-Zz5Pavy-v8J-NiB" target="_blank" rel="noopener">
+        <img src="assets/wolt.png" alt="Wolt">
+      </a>
+      <a href="https://www.foodora.fi/en/restaurant/utyz/north-pizza-kebab-utyz" target="_blank" rel="noopener">
+        <img src="assets/foodora.png" alt="Foodora">
+      </a>
+       <a href="tel:+3584037111112">
+    <img src="assets/phone.png" alt="Telefonla Ara">
+  </a>
+    </div>
+  </div>
+
+  <div class="hours-card">
+  <h2>Çalışma Saatleri</h2>
+  <p><strong>Pazartesi - Cuma:</strong> 10:00 - 22:00</p>
+  <p><strong>Cumartesi:</strong> 11:00 - 23:00</p>
+  <p><strong>Pazar:</strong> 12:00 - 21:00</p>
+
+  <p class="note"><strong>*Lütfen aklınızda takılan herhangi bir sorun için bizimle iletişime geçin.</strong></p>
+</div>
+</section>
+<!-- Google Maps Area -->
+
+<section class="map-section" id="map">
+  <h2>Bizi Burada Bulabilirsiniz</h2>
+  <div class="contact-info">
+  <p><strong>Adres:</strong> Jäämerentie 13, 99600 Sodankylä, Finlandiya</p>
+  <p><strong>Tel:</strong> <a href="tel:+3584037111112">+358403711111</a></p>
+</div>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d541.7012768021585!2d26.59342947988338!3d67.41720168425428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45d32bf5478b6f2d%3A0x49bea0b583920f5f!2sNORTH%20P%C4%B0ZZA%20%26%20KEBAB!5e0!3m2!1str!2str!4v1760479088555!5m2!1str!2str"
+      width="100%"
+      height="400"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="North Pizza & Kebab Konumu">
+    </iframe>
+  </div>
+</section>
+<!-- About Us Section -->
+<section class="about-us" id="about">
+  <h2>Hakkımızda</h2>
+  <p class="about-text">
+    2019 yılından beri sevgi ve titizlikle Pizza ve Kebap sektöründe büyük bir tutku ile hizmet vermekteyiz.  
+    Uluslararası hijyen kuralları çerçevesinde sağlıklı, lezzetli ve kaliteli ürünler sunmayı misyon edindik.
+  </p>
+</section>
+
+  <div class="image-popup" id="image-popup">
+    <img src="assets/bg_1.jpg" alt="Yemek Görseli">
+  </div>
+<!-- Go Top Section -->
+<button id="scrollTopBtn" title="Yukarı Dön">▲</button>
+
+<!-- Footer Section -->
+ <footer id="contact">
+  <p>
+    &copy; <span id="year"></span> North Pizza & Kebap |
+    Created by<a class="company-text" href="https://www.vareonstudios.com" target="_blank"> VareonStudios</a>
+    Tüm Hakları Saklıdır.
+  </p>
+</footer>
+<script>
+  // === SLIDER ===
+  const slides = document.querySelectorAll('.slide');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const slider = document.getElementById('slider');
+  const dotsContainer = document.createElement('div');
+  dotsContainer.classList.add('dots');
+  slider.appendChild(dotsContainer);
+
+  let currentSlide = 0;
+
+  // Noktaları oluştur
+  slides.forEach((_, index) => {
+    const dot = document.createElement('span');
+    dot.addEventListener('click', () => showSlide(index));
+    dotsContainer.appendChild(dot);
+  });
+  const dots = dotsContainer.querySelectorAll('span');
+
+  // Slayt gösterim fonksiyonu
+  function showSlide(index) {
+    slides[currentSlide].classList.remove('active');
+    dots[currentSlide].classList.remove('active');
+    currentSlide = (index + slides.length) % slides.length;
+    slides[currentSlide].classList.add('active');
+    dots[currentSlide].classList.add('active');
+  }
+
+  // Butonlarla ileri-geri geçiş
+  function nextSlide() { showSlide(currentSlide + 1); }
+  function prevSlide() { showSlide(currentSlide - 1); }
+
+  nextBtn.addEventListener('click', nextSlide);
+  prevBtn.addEventListener('click', prevSlide);
+
+  // Otomatik geçiş (5 saniyede bir)
+  setInterval(nextSlide, 5000);
+
+  // Başlangıçta aktif slayt ve nokta
+  slides[0].classList.add('active');
+  dots[0].classList.add('active');
+</script>
+<script>
+  // === MENÜ POPUP GÖRSEL (tıklama ile açılır, 5 sn sonra veya başka yere tıklayınca kapanır) ===
+  const popup = document.getElementById('image-popup');
+  if (popup) {
+    const popupImg = popup.querySelector('img');
+    let popupTimer;
+
+    document.querySelectorAll('.menu-item').forEach(item => {
+      const imgSrc = item.getAttribute('data-img');
+      const nameEl = item.querySelector('.name');
+
+      if (imgSrc && nameEl) {
+        nameEl.addEventListener('click', e => {
+          e.stopPropagation(); // dış tıklama çakışmasın
+          popupImg.src = imgSrc;
+          popup.style.display = 'block';
+
+          // Önceki zamanlayıcı varsa iptal et
+          if (popupTimer) clearTimeout(popupTimer);
+
+          // 5 saniye sonra otomatik kapat
+          popupTimer = setTimeout(() => {
+            popup.style.display = 'none';
+          }, 5000);
+        });
+      }
+    });
+
+    // Popup veya sayfa boşluğuna tıklayınca kapat
+    document.addEventListener('click', e => {
+      if (popup.style.display === 'block' && !popup.contains(e.target)) {
+        popup.style.display = 'none';
+        if (popupTimer) clearTimeout(popupTimer);
+      }
+    });
+  }
+</script>
+<script>
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      scrollTopBtn.classList.add("show");
+    } else {
+      scrollTopBtn.classList.remove("show");
+    }
+  });
+
+  scrollTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+
+<script>
+  // === MOBİL MENÜ AÇ / KAPA ===
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  if (hamburger && navLinks) {
+    // Aç/kapa
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('open');
+      document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : 'auto';
+    });
+
+    // Menüdeki linke tıklanınca menüyü kapat
+    const links = navLinks.querySelectorAll('a');
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('open');
+        document.body.style.overflow = 'auto';
+      });
+    });
+  }
+</script>
+
+  <script src="js/main.js"></script>
+  <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<!-- NOTES:
+-This Website created by Vareon Studios for Customer only. Can't copied or shared to third person without asking.
+-Special Thanks to for Background Pattern Image for Ahmad Mujib from VECTEEZY.COM 
+
+-->
+</body>
+</html>
