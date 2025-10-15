@@ -206,8 +206,7 @@ body {
 
 .hours-card {
   position: relative;
-  background: url("assets/hours-bg.jpg") no-repeat center center;
-  background-size: cover;
+  background-color: black;
   border: 1px solid var(--secondary-color);
   border-radius: 12px;
   padding: 25px 40px;
@@ -221,7 +220,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6); /* karartma efekti */
+  background: rgba(255, 255, 255, 0.1);
   z-index: 0;
 }
 
